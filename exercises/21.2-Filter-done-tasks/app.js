@@ -10,3 +10,12 @@ let tasks = [
 ];
 
 // Your code here
+//.filter(añadelo al array siempre y cuando se cumpla la condición entre()
+/* let newArray = tasks.filter(function(tareas)) { 
+      return tarea ===true;
+      }
+    }*/
+let newArray = tasks.filter(tareas => tareas.done === true); 
+/*tienes que decirle donde está el true, tareas hará referencia a tasks pero puede tener cualquier nombre.
+Entonces dentro de tasks en el apartado done, tendrá que ser true*/
+console.log(newArray);
