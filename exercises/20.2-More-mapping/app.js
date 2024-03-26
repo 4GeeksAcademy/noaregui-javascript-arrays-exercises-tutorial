@@ -9,3 +9,13 @@ function myFunction(numero) {
 let newArray = myNumbers.map(myFunction);
 
 console.log(newArray);
+
+/*Otra forma:
+const newArray = myNumbers.map(numero => numero *  3);
+console.log(newArray)
+
+Otra forma:
+const newArray = myNumbers.map(function(numero){
+    return numero * 3;
+});
+*/
